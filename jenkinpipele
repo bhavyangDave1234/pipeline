@@ -1,7 +1,7 @@
 pipeline
 {
     agent any
-    {
+    
         stage('Build')
         {
             echo "Build is success"   
@@ -18,5 +18,5 @@ pipeline
         {
             echo "Release is success"
         }
-    }
+    
 }
