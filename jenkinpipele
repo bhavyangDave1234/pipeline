@@ -4,19 +4,31 @@ pipeline
     
         stage('Build')
         {
-            echo "Build is success"   
+           steps
+           {
+                echo " Build is success"
+           }
         }
         stage('Test')
         {
-            echo "Test is success"
+            steps
+           {
+                echo " Test is success"
+           }
         }
         stage('Deploy')
         {
-            echo "Deploy is success"
+            steps
+           {
+                echo " Deploy is success"
+           }
         }
         stage('Release')
         {
-            echo "Release is success"
+            steps
+           {
+                echo " Release is success"
+           }
         }
     
 }
