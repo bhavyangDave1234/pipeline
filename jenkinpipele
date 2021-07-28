@@ -1,0 +1,20 @@
+pipeline
+agent any
+{
+    stage('Build')
+    {
+        echo "Build is success"   
+    }
+    stage('Test')
+    {
+        echo "Test is success"
+    }
+    stage('Deploy')
+    {
+        echo "Deploy is success"
+    }
+    stage('Release')
+    {
+        echo "Release is success"
+    }
+}
