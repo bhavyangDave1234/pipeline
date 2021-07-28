@@ -1,34 +1,35 @@
 pipeline
 {
     agent any
-    
-        stage('Build')
-        {
-           steps
-           {
-                echo " Build is success"
-           }
-        }
-        stage('Test')
-        {
-            steps
-           {
-                echo " Test is success"
-           }
-        }
-        stage('Deploy')
-        {
-            steps
-           {
-                echo " Deploy is success"
-           }
-        }
-        stage('Release')
-        {
-            steps
-           {
-                echo " Release is success"
-           }
-        }
-    
+    stages
+    {
+            stage('Build')
+            {
+               steps
+               {
+                    echo " Build is success"
+               }
+            }
+            stage('Test')
+            {
+                steps
+               {
+                    echo " Test is success"
+               }
+            }
+            stage('Deploy')
+            {
+                steps
+               {
+                    echo " Deploy is success"
+               }
+            }
+            stage('Release')
+            {
+                steps
+               {
+                    echo " Release is success"
+               }
+            }
+    }    
 }
